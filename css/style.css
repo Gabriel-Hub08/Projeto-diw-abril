@@ -1,0 +1,42 @@
+/*css Reset*/
+*{
+    padding: 0;
+    margin: 0;
+    border:0;
+
+}
+header{
+    background-color:cadetblue;
+    padding: 12px;
+    color: white;
+    text-align: center;
+    font-family:Arial;
+}
+#container{
+    background-color: purple;
+    padding: 16px;
+
+    /*
+    border: 1px solid red;
+    */
+    
+    display:flex;
+    justify-content: center;
+    justify-content: flex-end;
+}
+.item{
+    margin: 12px;
+    padding: 12px;
+    height: 64px;
+    background-color: yellow
+    }
+.retangulo {
+    width: 96px;
+}
+.quadrado {
+    width: 64px;
+}
+.circulo {
+    border-radius: 50%;
+    width: 64px;
+}
